@@ -67,8 +67,8 @@ hold on
 plot(Eb)
 plot(E)
 
-legend('Clahe','BClahe','›nput')
-xlabel('›mage Set')
+legend('Clahe','BClahe','√ùnput')
+xlabel('√ùmage Set')
 ylabel('Entropy')
 
 figure
@@ -78,7 +78,7 @@ hold on
 plot(Q)
 
 legend('Clahe','BClahe')
-xlabel('›mage Set')
+xlabel('√ùmage Set')
 ylabel('universal image quality index ')
 
 figure
@@ -88,7 +88,7 @@ hold on
 plot(Mb)
 
 legend('Clahe','BClahe')
-xlabel('›mage Set')
+xlabel('√ùmage Set')
 ylabel('Mutual Information')
 
 figure
@@ -96,4 +96,4 @@ figure
  figure
  imshow(uint8(Ib)),title('BClahe');
  figure
- imshow(uint8(I)),title('›nput');
+ imshow(uint8(I)),title('√ùnput');
